@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: http-client
+  main:
+    banner-mode: off
+logging:
+  level:
+    sun.net.www.protocol.http.HttpURLConnection: trace
