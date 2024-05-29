@@ -13,11 +13,11 @@ public class HttpClientApplication {
         SpringApplication.run(HttpClientApplication.class, args);
     }
 
-  /*  @Bean
+    @Bean
     CommandLineRunner commandLineRunner(PostService postService) {
         return args -> {
             String post = postService.findAll();
             System.out.println(post);
         };
-    }*/
+    }
 }
